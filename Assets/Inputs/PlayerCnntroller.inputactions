@@ -1,0 +1,90 @@
+{
+    "name": "PlayerCnntroller",
+    "maps": [
+        {
+            "name": "PlayerActionMap",
+            "id": "d6a74b1b-36da-4777-97e3-04a3c9a20808",
+            "actions": [
+                {
+                    "name": "Move WASD",
+                    "type": "Value",
+                    "id": "21f4cd0d-8be5-4e14-b27d-43242d839d3a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "51e5db77-211e-4f09-84f2-991cae1af0ab",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move WASD",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "9fe8c931-cb6f-4cd2-ab44-49a64a7cb864",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Control scheme",
+                    "action": "Move WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "9d075faa-bb0f-4eb1-82c2-55011768c663",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Control scheme",
+                    "action": "Move WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "dda8d4b6-8a0f-4ea6-bc73-90cef4d337e9",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Control scheme",
+                    "action": "Move WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "bda1b49f-b2b2-4958-b256-9fc30f1d369c",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Control scheme",
+                    "action": "Move WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC Control scheme",
+            "bindingGroup": "PC Control scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
